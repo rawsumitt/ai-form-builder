@@ -29,6 +29,7 @@ No API keys. No cloud. Just your hardware.
 - **AI output repair** — automatically fixes the most common model mistakes before rendering
 - **Cancel anytime** — abort a slow generation mid-flight
 - **Fully offline** — Ollama runs locally, nothing leaves your machine
+- **Unit tests** — robust test suite for components, utilities, and prompt building using Vitest
 
 ---
 
@@ -115,6 +116,14 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+### 6. Run unit tests
+
+```bash
+npm run test
+```
 
 ---
 
@@ -241,6 +250,7 @@ npm run dev      # start dev server at localhost:5173
 npm run build    # production build into /dist
 npm run preview  # serve the production build locally at localhost:4173
 npm run lint     # run ESLint
+npm run test     # run unit tests via Vitest
 ```
 
 ---

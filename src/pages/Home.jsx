@@ -59,12 +59,12 @@ const Home = () => {
                     </div>
                 )}
 
-                {/* warn if the model output looked sketchy */}
+                {/* warn if the model output looked sketchy
                 {!isValidOutput && code && (
                     <div className="max-w-2xl mx-auto mb-6 px-4 py-3 bg-yellow-50 border border-yellow-200 text-yellow-700 rounded-xl text-sm">
                         ⚠️ Output may be incomplete or invalid. Try regenerating.
                     </div>
-                )}
+                )} */}
 
                 {/* Layout */}
                 <div className={`flex flex-col ${(generated || loading) ? "lg:flex-row" : "items-center"} gap-8`}>
