@@ -101,7 +101,7 @@ Leave this terminal open. Ollama must be running whenever you use the app.
 ### 4. Clone the repo and install dependencies
 
 ```bash
-git clone https://github.com/your-username/ai-form-builder.git
+git clone https://github.com/rawsumitt/ai-form-builder.git
 cd ai-form-builder
 npm install
 ```
